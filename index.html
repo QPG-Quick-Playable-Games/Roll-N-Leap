@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roll & Leap</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-shell">
+      <div class="hud">
+        <div class="brand">ROLL & LEAP</div>
+        <div id="score">Score: 0</div>
+      </div>
+      <canvas id="gameCanvas" width="960" height="540"></canvas>
+
+      <div class="touch-controls" aria-label="Touch controls">
+        <button class="touch-btn" data-control="left" aria-label="Move left">◀</button>
+        <button class="touch-btn jump" data-control="jump" aria-label="Jump">▲</button>
+        <button class="touch-btn" data-control="right" aria-label="Move right">▶</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
